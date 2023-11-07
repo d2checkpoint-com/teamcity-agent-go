@@ -1,5 +1,4 @@
-FROM jetbrains/teamcity-agent:2023.05.4
-
+FROM jetbrains/teamcity-agent:2023.05.4-linux-sudo
 ENV DEBIAN_FRONTEND noninteractive
 
 USER root
